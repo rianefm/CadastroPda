@@ -1,6 +1,83 @@
-*{
+* {
     border: 0;
     padding: 0;
-
     box-sizing: border-box;
-}
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #3b4043; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  section.cadastroAluno {
+    background-color: #ccc; 
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left:50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #form-aluno {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #form-aluno h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #0277BD; 
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #0277BD; 
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #B3E5FC; 
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    padding: 0 20px;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #4CAF50; 
+    color: white;
+    font-weight: bolder;
+    transition: background-color 0.3s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .buttons button:hover {
+    background-color: #388E3C; 
+    cursor: pointer;
+  }
+  
+  #delete:hover {
+    background-color: #D32F2F; 
+  }
+  
